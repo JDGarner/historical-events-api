@@ -1,0 +1,24 @@
+{
+  "name": "quotes-repo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon server.js",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "Jamie Garner",
+  "license": "ISC",
+  "engines": {
+    "node": "7.4.0",
+    "npm": "4.0.5"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
