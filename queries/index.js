@@ -1,6 +1,11 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/quotesDB');
 var Quotes = require('../models/quotes');
+
+var prodDb = process.env.MONGOLAB_URI;
+var devDb = 'mongodb://localhost:27017/quotesDB';
+var dbHost = process.env.NODE_ENV === 'production' ? prodDb : devDb;
+
+mongoose.connect(dbHost);
 
 function getQuote(req, res, next) {
   Quotes.aggregate(
@@ -9,7 +14,7 @@ function getQuote(req, res, next) {
     function (err, quote) {
       if (err)
         res.send(err);
-      res.json(quote);
+      res.json(quote[0]);
     }
   );
 }
