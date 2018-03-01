@@ -1,10 +1,9 @@
 var mongoose = require('mongoose');
 var Events = require('../models/events');
 
-var prodDb = process.env.MONGOLAB_URI;
+var prodDb = process.env.MONGODB_URI;
 var devDb = 'mongodb://localhost:27017/historical-events';
-// var dbHost = process.env.NODE_ENV === 'production' ? prodDb : devDb;
-var dbHost = prodDb;
+var dbHost = process.env.NODE_ENV === 'production' ? prodDb : devDb;
 
 // mongoose.connect(dbHost);
 mongoose.connect(dbHost, function (err) {
