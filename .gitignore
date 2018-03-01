@@ -1,4 +1,4 @@
 node_modules
 npm-debug.log
-db/quotesDB
+db/historical-events
 db/update-db.sh

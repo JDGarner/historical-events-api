@@ -1,4 +1,4 @@
-API for quotes-repo
+API for historical events
 
 ### Setup for Dev
 
