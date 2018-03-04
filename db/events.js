@@ -14,6 +14,10 @@ db.events.insert([
     year: 1914
   },
   {
+    description: "Start of World War One",
+    year: 1914
+  },
+  {
     description: "End of World War One",
     year: 1918
   },
@@ -38,7 +42,11 @@ db.events.insert([
     year: 1938
   },
   {
-    description: "Germany invades Poland (WW2)",
+    description: "Germany invades Poland (WWII)",
+    year: 1939
+  },
+  {
+    description: "Start of World War Two",
     year: 1939
   },
   {
@@ -56,33 +64,79 @@ db.events.insert([
 ]);
 exit;
 
-// Suffering is an excessive focus on yourself - TR
 
-// “You cannot swim for new horizons until you have courage to lose sight of the shore.”
-// ―William Faulkner
+// 1953 - Stalin Dies
+// 1961 - Berlin Wall Constructed
+// 1986 - Nuclear Disaster at Chernobyl
+// 1989 - Berlin Wall Comes Down
+// 1991 - Dissolution of the Soviet Union
+// 1917 - Bolshevik Revolution
 
-// "You must push everything to the absolute limit or else life will be boring. People will be boring.”
-// -Dario Argento
-
-
+// 1450-Printing Press Invented
+// 1543-Copernicus Claims Earth Circles the Sun
+// 1610-Galileo Proves Copernican System Correct
+// 1776-First Submarine Launched
+// 1821-Michael Faraday Discovers Electromagnetic Induction
+// 1859-Darwin Publishes Origins of Species
+// 1876-Telephone Invented
+// 1879-Electric Light Invented
+// 1889 - Eiffel Tower Completed
 
 // To Add:
 // War Starts / Ends
 // Famous People Born / Died
 // Countries joining EU
 
-// 1901 - Social Revolutionary Party Founded in Russia
-// 1903 - King and Queen of Serbia Murdered
-// 1905 - Norway Separates From Sweden
-// 1907 - Peace Conference at the Hague
-// 1908 - Austria Annexes Bosnia and Herzegovina
-// 1908 - Bulgaria Declares Independence
-// 1910 - Revolution in Portugal
-// 1913 - Suffragettes in England
-// 1914 - Austria Declares War on Serbia
-// 1914 - Germany Declares War
-// 1917 - Russian Revolution(Pt.I)
-// 1917 - Bolshevik Revolution
+
+
+
+
+
+
+
+
+// 1543-First Illustrated Study of Human Body
+// 1572-Brache Observes Super Nova
+// 1609-Kepler Publishes His Laws of Planetary Motion
+// 1637-Descartes Publishes "Discours De la Methode"
+// 1638-Galileo Explains Principles of Falling Bodies
+// 1674-Boyle's Law
+// 1669-Newton Explains Calculus
+// 1672-Newton Premiers Reflecting Telescope
+// 1672-Newton Founds Study of Mechanics
+// 1698 Steam Pump Introduced
+// 1704-Newton Publishes "Optick"
+// 1733 Flying Shuttle Invented
+// 1764-Spinng Jenny Introduced
+
+// 1776-Watt Builds Steam Engine
+// 1784 Power Loom Invented
+// 1793-Cotton Gin Invented
+// 1800-Manufacture with Interchangeable Parts Begins
+// 1807-Robert Fulton Sails on THE CLERMONT
+// 1814-George Stephenson Develop Steam Engine
+// 1819-First Steam Powered Ship Crosses Atlantic
+
+// 1829-Baltimore and Ohio Railroad Begun
+// 1834-Grain Reaper Patented
+// 1837-Steel Plow Invented
+// 1839-First Photo
+// 1844-Telegraph Begun
+
+// 1859-Oil Well Started
+// 1860-Work Begun on London Underground Railroad
+// 1861-Pasteurization Introduced
+// 1869-Transcontinental Rail Service Begun in the United States
+
+// 1877-Germ Theory of Disease
+// 1877-Phonograph Invented by Edison
+
+// 1888-George Eastman Patents Camera
+
+
+//------------------------
+//1900s
+//-----------------------
 // 1920 - Finland Gains Independence From USSR
 // 1922 - Irish Free State Established
 // 1929 - Stalin Enforces "Forced Collectivization"
@@ -106,7 +160,7 @@ exit;
 // 1949 - Soviets Explode Atomic Bomb
 // 1952 - Czechoslovakia's Slanky Executed For High Treason
 // 1952 - King George VI Dies, Elizabeth Crowned Queen
-// 1953 - Stalin Dies
+
 // 1954 - Four Power Meeting(Berlin)
 // 1955 - Germany Becomes Member of NATO
 // 1955 - Vienna Treaty Restores Austrian Independence
@@ -119,36 +173,14 @@ exit;
 // 1960 - EFTA Formed
 // 1961 - French Approve Referendum o Algeria
 // 1961 - Vienna Summit
-// 1961 - Berlin Wall Constructed
-// 1963 - French Veto Britain's Joining Common Market
-// 1967 - Military Coup in Greece
-// 1968 - Rioting in France
-// 1968 - Spring Summer in Czechoslovakia
-// 1969 - Juan Carlos Succeeds Franco
-// 1969 - Non - Proliferation Agreement Signed
-// 1969 - Violence in Northern Ireland
-// 1972 - Summit Meeting in Washington
-// 1972 - Arab Terrorists Murder 11 Athletes at the Olympic Games
+
 // 1972 - Britain Takes Direct Control Over Northern Ireland
-// 1974 - Willy Brandt of West Germany Forced to Resign
-// 1974 - Military Government of Greece Resigns
-// 1974 - Military Coup in Portugal
-// 1974 - Revolt in Cyprus, Turkey Invades
-// 1975 - Franco Dies, Juan Carlos Takes Over
-// 1979 - SALT II
-// 1980 - Strikes Across Poland
-// 1981 - Pope John Paul II Shot Twice
-// 1985 - Gorbachev Becomes Soviet Leader
-// 1986 - Nuclear Disaster at Chernobyl
-// 1987 - Reagan and Gorbachev Meet in Washington
 // 1989 - Free Election Held For Soviet Congress of Deputies
-// 1989 - Berlin Wall Comes Down
 // 1989 - Havel Becomes President of Czechoslovakia
 // 1989 - Nicole Ceausecu Deposed in Romania
 // 1990 - Yeltsin President of Russian Federation
 // 1990 - Germany United
-// 1991 - Failed Kremlin Coup
-// 1991 - USSR Comes to a Formal End
+
 // 1992 - Civil War Begins in Former Yugoslavia
 // 1996 - Elections in Bosnia
 // 1998 - Northern Ireland Peace Agreement
