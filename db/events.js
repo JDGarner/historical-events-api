@@ -3,63 +3,63 @@ db.events.drop();
 db.events.insert([
   {
     description: "Queen Victoria dies",
-    year: 1901
+    date: new Date("1901-01-01")
   },
   {
     description: "Archduke Francis Ferdinand assassinated",
-    year: 1914
+    date: new Date("1914-01-01")
   },
   {
     description: "Germany invades Belgium (WWI)",
-    year: 1914
+    date: new Date("1914-01-01")
   },
   {
     description: "Start of World War One",
-    year: 1914
+    date: new Date("1914-01-01")
   },
   {
     description: "End of World War One",
-    year: 1918
+    date: new Date("1918-01-01")
   },
   {
     description: "Treaty of Versailles signed",
-    year: 1919
+    date: new Date("1919-01-01")
   },
   {
     description: "Mussolini seizes power in Italy",
-    year: 1922
+    date: new Date("1922-01-01")
   },
   {
     description: "Vladimir Lenin dies",
-    year: 1924
+    date: new Date("1924-01-01")
   },
   {
     description: "Night of the Long Knives",
-    year: 1934
+    date: new Date("1934-01-01")
   },
   {
     description: "Kristallnacht in Germany",
-    year: 1938
+    date: new Date("1938-01-01")
   },
   {
     description: "Germany invades Poland (WWII)",
-    year: 1939
+    date: new Date("1939-01-01")
   },
   {
     description: "Start of World War Two",
-    year: 1939
+    date: new Date("1939-01-01")
   },
   {
     description: "End of World War Two",
-    year: 1945
+    date: new Date("1945-01-01")
   },
   {
     description: "NATO founded",
-    year: 1949
+    date: new Date("1949-01-01")
   },
   {
     description: "Neil Armstrong walks on the moon",
-    year: 1969
+    date: new Date("1969-01-01")
   }
 ]);
 exit;
