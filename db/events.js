@@ -2,64 +2,52 @@ db = connect("localhost:27017/historical-events");
 db.events.drop();
 db.events.insert([
   {
+    description: "Printing Press invented",
+    date: new Date("1440-01-01")
+  },
+  {
     description: "Queen Victoria dies",
     date: new Date("1901-01-01")
   },
   {
     description: "Archduke Francis Ferdinand assassinated",
-    date: new Date("1914-01-01")
+    date: new Date("1914-06-28")
   },
   {
-    description: "Germany invades Belgium (WWI)",
-    date: new Date("1914-01-01")
+    description: "World War One Starts",
+    date: new Date("1914-07-28")
   },
   {
-    description: "Start of World War One",
-    date: new Date("1914-01-01")
-  },
-  {
-    description: "End of World War One",
-    date: new Date("1918-01-01")
+    description: "World War One Ends",
+    date: new Date("1918-11-11")
   },
   {
     description: "Treaty of Versailles signed",
     date: new Date("1919-01-01")
   },
   {
-    description: "Mussolini seizes power in Italy",
-    date: new Date("1922-01-01")
+    description: "World Wide Web goes live",
+    date: new Date("1991-08-06")
   },
   {
-    description: "Vladimir Lenin dies",
-    date: new Date("1924-01-01")
-  },
-  {
-    description: "Night of the Long Knives",
-    date: new Date("1934-01-01")
-  },
-  {
-    description: "Kristallnacht in Germany",
-    date: new Date("1938-01-01")
-  },
-  {
-    description: "Germany invades Poland (WWII)",
-    date: new Date("1939-01-01")
+    description: "Kristallnacht (Night of Broken Glass)",
+    date: new Date("1938-10-09")
   },
   {
     description: "Start of World War Two",
-    date: new Date("1939-01-01")
+    date: new Date("1939-09-01")
   },
   {
     description: "End of World War Two",
-    date: new Date("1945-01-01")
+    date: new Date("1945-09-02")
   },
   {
     description: "NATO founded",
-    date: new Date("1949-01-01")
+    date: new Date("1949-04-04")
   },
   {
     description: "Neil Armstrong walks on the moon",
-    date: new Date("1969-01-01")
+    date: new Date("1969-07-21")
   }
 ]);
 exit;
